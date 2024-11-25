@@ -978,6 +978,30 @@ section#funstuff {
 }
 
 @media only screen and (max-width: 768px) {
+  html {
+    cursor: auto;
+  }
+
+  .interactable:hover {
+    cursor: pointer;
+  }
+
+  .body-text--underline {
+    cursor: pointer;
+  }
+
+  .icon--footer {
+    cursor: pointer;
+  }
+
+  #footer-left a:hover ~ a {
+    opacity: 1;
+  }
+  
+  .toby-container:hover {
+    transform: scale(1);
+  }
+  
   #trailer {
     display: none;
     position: fixed;
