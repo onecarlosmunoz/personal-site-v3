@@ -57,7 +57,7 @@ body .grain:before {
   animation: noise 1s steps(2) infinite;
 }
 
-body:hover > #trailer {
+body:hover > #trailer.trailer--visible {
   opacity: 1;
 }
 

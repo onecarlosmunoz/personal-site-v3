@@ -2,6 +2,8 @@ const trailer = document.getElementById("trailer");
 const icon = document.getElementById("trailer__icon");
 const text = document.getElementById("trailer__text");
 
+trailer.classList.add("trailer--visible");
+
 const anchors = [
   {
     "datatype": "link/linkedin",
